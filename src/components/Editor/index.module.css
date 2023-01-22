@@ -1,0 +1,24 @@
+.container {
+  flex: 2;
+  background-color: brown;
+  display: flex;
+  flex-direction: column;
+}
+
+.header {
+  padding: 8px;
+}
+
+.editor {
+  width: 100%;
+  background-color: teal;
+  flex: 1;
+  padding: 4px;
+}
+
+.editor textarea {
+  width: 100%;
+  height: 100%;
+  padding: 8px;
+  resize: none;
+}

@@ -1,0 +1,19 @@
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: blue;
+  width: 100%;
+  height: 420px;
+}
+
+.face {
+  font-family: monospace;
+  font-size: 12px;
+  line-height: 10px;
+  letter-spacing: 2px;
+}
+
+.face div {
+  white-space: nowrap;
+}

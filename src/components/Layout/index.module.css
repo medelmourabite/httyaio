@@ -1,0 +1,20 @@
+.container {
+  display: flex;
+  height: 100vh;
+}
+
+.leftColumn {
+  height: 100%;
+  background-color: aqua;
+  display: flex;
+  flex-direction: column;
+  width: 420px;
+}
+
+.rightColumn {
+  flex: 1;
+  height: 100%;
+  background-color: bisque;
+  display: flex;
+  flex-direction: column;
+}

@@ -1,0 +1,29 @@
+.container {
+  flex: 1;
+  max-width: 100%;
+  background-color: green;
+  padding: 8px;
+  position: relative;
+}
+
+.messages {
+  display: flex;
+  flex-direction: column;
+  align-self: flex-start;
+  background: red;
+}
+
+.options {
+  margin-top: 16px;
+}
+
+.input {
+  position: absolute;
+  bottom: 8px;
+  right: 8px;
+  left: 8px;
+}
+
+.input input {
+  width: 100%;
+}
